@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mosca/modules/modules/BASEMODULE/BASEMODULE.c
+BASEMODULE.h
+/Users/mosca/modules/modules/BASEMODULE/BASEMODULE.h
+
+/Users/mosca/modules/modules/BASEMODULE/BASEMODULE.h
+stdlib.h
+-
+stdio.h
+-
+module.h
+/Users/mosca/modules/modules/BASEMODULE/module.h
+
