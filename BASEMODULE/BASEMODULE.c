@@ -1,5 +1,12 @@
 #include "BASEMODULE.h"
 
+/*
+	Prima di editare questo modulo verificate che siano presenti i campi nel file data.h necessari alla rappresentazione del modulo
+	* aggiungere un campo, tipicamente con lo stesso nome del modulo, alla struttura data_type_e
+	* aggiungere un campo, se non presente, corrispondente all'unità di misura del dato letto da questo modulo, alla struttura data_unit_e
+	* aggiungere un campo, se non presente, corrispondente al tipo del singolo dato acquisito (Ex. INT, FLOAT)  , alla struttura data_value_type_e
+*/
+
 void BASEMODULE_init() {
 	PRINTA("BASEMODULE_INIT");
 	int i;
