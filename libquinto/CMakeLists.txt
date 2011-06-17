@@ -5,7 +5,7 @@ INCLUDE_DIRECTORIES(../../core_libs)
 INCLUDE_DIRECTORIES(../../cloud_libs)
 INCLUDE_DIRECTORIES(../../old_core/sensor)
 
-SET(lib_src BASEMODULE.c)
+SET(lib_src quinto.c)
 ADD_DEFINITIONS(-fPIC)
 
-ADD_LIBRARY(BASEMODULE MODULE ${lib_src})
+ADD_LIBRARY(quinto MODULE ${lib_src})
